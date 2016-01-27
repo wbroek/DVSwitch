@@ -16,12 +16,12 @@ Pod::Spec.new do |s|
 
 DESC
 
-  s.homepage     = "https://github.com/Voley/DVSwitch"
+  s.homepage     = "https://github.com/wbroek/DVSwitch"
   s.screenshots  = "http://i.imgur.com/ZrTCGfd.png", "http://i.imgur.com/rX0O15a.png"
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author             = { "Dmitry Volevodz" => "dimavolevodz@gmail.com" }
   s.platform     = :ios, "6.0"
-  s.source       = { :git => "https://github.com/Voley/DVSwitch.git", :tag => "1.0.0" }
+  s.source       = { :git => "https://github.com/wbroek/DVSwitch", :tag => "1.0.0" }
 
   s.source_files  = "Source", "Source/**/*.{h,m}"
   s.requires_arc = true
